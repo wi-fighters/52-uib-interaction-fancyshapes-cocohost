@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  margin: 120px;
+  padding: 50px;
 }
 
 .task-one::before {
@@ -17,8 +17,18 @@ section {
 }
 
 .task-two {
-  background: url(./assets/beach.jpg) no-repeat center;
-  clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 50%);
+  padding-top: 15em;
+  text-align: center;
+  background: no-repeat center url(./assets/beach.jpg);
+  background-size: cover;
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   height: 300px;
   overflow: auto;
+}
+
+.task-three {
+  background: no-repeat center url(./assets/smiley.jpg);
+  height: 300px;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
