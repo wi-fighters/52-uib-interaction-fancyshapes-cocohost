@@ -15,3 +15,10 @@ section {
 .task-one::after {
   content: "...The end";
 }
+
+.task-two {
+  background: url(./assets/beach.jpg) no-repeat center;
+  clip-path: polygon(50% 0%, 100% 0%, 50% 100%, 0% 50%);
+  height: 300px;
+  overflow: auto;
+}
